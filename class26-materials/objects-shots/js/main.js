@@ -44,27 +44,22 @@ function getFetch(){
 
             // need to put this into the map function 
             
-            imagesArr.map((item) => {
+            imagesArr.map((item, i) => {
                 if(item === imagesArr[0]) {
                     carousel.querySelector('img').setAttribute('src',item)
                 }
 
-                let div = `<div class="carousel-item">
-                <img class="d-block w-100" src="${item}" alt="Second slide">
-            </div>`
+                let div = document.createElement('div');
+                div.setAttribute('class', 'carousel-item');
+                div.innerHTML = `<img class="d-block w-100" src="${item}" alt="${i} slide">`
 
                 // I can grab the parent in this case I need to get carousel, then I need to 
-                carousel.insertAdjacentHTML("afterend",div)
+                document.querySelector('.carousel-inner').append(div);
             })
-            
 
         })
         .catch(err => {
             console.log(`error ${err}`)
         });
-
-    
 }
-
-
 
