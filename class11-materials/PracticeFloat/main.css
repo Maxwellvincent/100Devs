@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: black;
+    clear: both;
+}
+
+section {
+    float: left;
+    height: 300px;
+    width: 33.3%;
+    background: gray;
+    border: 1px solid;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background: blue;
+}

@@ -1,0 +1,121 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Header */
+
+header {
+    background-color: #f1f6f9;
+    color: #0d0d25;
+    padding: 0 5rem;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+header nav ul li a{
+    color: #585975;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 4.5rem;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+/* Section Styles */
+section {
+    justify-content: left;
+    padding: 0 25%;
+}
+
+section span {
+    color: #ffe1be;
+}
+
+section h1 {
+    font-size: 3.5rem;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+section #discover {
+    color: white;
+    background-color: #ff8800;
+    width: 10rem;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+section #discover h5{
+    width: 60%;
+    margin: 0;
+    margin-right: 0;
+    display: inline-block;
+}
+
+section #discover div{
+    /* margin-left: 1rem; */
+    background-color: #ffaa4d;
+    color: white;
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #f2f6f7;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+footer span {
+    color: #ff8800;
+}
+
+footer h3 {
+    font-size: 2.5rem;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1rem;
+    border-bottom: 1px solid #ff8800;
+}
+
+footer .img-box {
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+footer .img {
+    width: 25%;
+    float: left;
+    justify-content: center;
+}
+footer img {
+    height: 200px;
+    width: 200px; */
+    margin: 2rem 2rem;
+}

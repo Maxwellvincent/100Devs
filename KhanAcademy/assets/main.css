@@ -1,0 +1,118 @@
+.container {
+    max-width: 100%;
+}
+
+/* styling for header section */
+
+header {
+    max-width: 1200px;
+    margin: 1rem auto;
+    color: blue;
+    text-align: center;
+}
+
+header select#courses {
+    border: none;
+    margin-right: 1rem;
+    color: blue;
+}
+
+header input {
+    margin-left: 1rem;
+    color: blue;
+}
+
+header div {
+    display: inline-block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header img {
+    display: inline-block;
+    margin-left: 5rem;
+    width: 40px;
+}
+
+header h2 {
+    display: inline-block;
+    margin-left: .1rem;
+    font-size: 2rem;
+}
+
+header nav {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Styling for Span section */
+
+span {
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* section styling */
+
+section {
+    max-width: 1000px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+section div {
+    margin-top: 5rem;
+}
+section div.box1 {
+    
+}
+
+section div.box1 img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div.box2 {
+    align-items: center;
+}
+
+section div.box2 h1 {
+    font-size: 53px;
+}
+
+section div.box2 p {
+    font-size: 18px;
+}
+
+section div.box2 nav ul{
+    display: flex;
+    list-style: none;   
+    justify-content: space-between;
+    padding: 0;
+}
+section div.box2 nav ul li {
+    text-decoration: none;
+    border-radius: 1px solid black;
+}
+
+section div.box2 nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15%;
+}
+

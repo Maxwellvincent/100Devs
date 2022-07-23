@@ -1,0 +1,202 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+ background-color: #66768a;
+  height: 100%;
+  padding: 3rem 10rem;
+  padding-bottom: 10rem;
+}
+nav {
+  padding-top: .5rem;
+  height: 5rem;
+}
+
+nav ul {
+  padding-left: 1rem;
+}
+
+nav ul li{
+  float: left;
+  width: 10%;
+  margin-right: 1rem;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav #logo {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+nav #donate-btn {
+  float: right;
+  width: 10%;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 2rem;
+}
+
+header p {
+  text-align: center;
+  font-size: 20px;
+}
+
+section {
+  background-color: #ffffff;
+  color: #161f2a;
+  text-align: center;
+  padding: 1rem 10rem 10rem;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 4rem;
+}
+
+section p {
+  font-size: 20px;
+}
+
+section.sect-2 {
+  background-color: #dbdfe2;
+  font-size: 20px;
+  line-height: 2rem;
+  float: left;
+  padding-top: 2rem;
+}
+
+section.sect-2 .box1 {
+  width: 50%;
+  float: left;
+}
+
+section.sect-2 .box2 {
+  width: 50%;
+  float: right;
+}
+
+
+section.sect-2 img {
+  width: 400px;
+  height: 400px;
+}
+
+section.sect-2 h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+section.sect-2 h4 {
+  font-size: 20px;
+}
+
+section.sect-2 p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+section.sect-2 .class-btn {
+  border: 2px solid #161f2a;
+  margin: auto;
+  width: 150px;
+}
+
+section.sect-3 h4 {
+  font-size: 20px;
+}
+
+section.sect-3 h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+section.sect-3 p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+section.sect-3 .class-btn {
+  border: 2px solid #161f2a;
+  margin: auto;
+  width: 150px;
+}
+
+
+
+footer {
+  background-color: #161f2a;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+footer .box1 {
+  width: 60%;
+}
+
+footer .box1 ul li i{
+  float: left;
+  margin-right: 1rem;
+}
+
+footer .box1 ul li{
+  float: left;
+  margin-right: 1rem;
+  
+}
+
+footer div h6 {
+  float: left;
+  width: 100%;
+}
+
+footer span {
+  border: 2px solid white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

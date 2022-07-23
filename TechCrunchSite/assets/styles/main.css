@@ -1,0 +1,63 @@
+ /* styling for container */
+ container {
+     height: 100vh;
+ }
+
+ /* styling for header */
+header {
+    display: inline-block;
+    width: 15%;
+}
+ header .logo img {
+     width: 200px;
+ }
+header .sub-logo {
+    /* text-align: center; */
+    margin-left: 50px;
+}
+header .sub-logo #header-link a{
+     text-decoration: none;
+     color: #DCA946;
+     font-size: 1.5rem;
+ }
+
+ header .sub-logo #login-link {
+    
+ }
+
+header .sub-logo #login-link a {
+     color: #00A562;
+     text-decoration: none;
+     font-size: 1.5rem;
+ }
+
+ header nav {
+     display: inline-block;
+ }
+
+ header nav ul{
+     display: inline;
+     list-style: none;
+ }
+
+ header nav ul li {
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+
+ header nav ul li a {
+     text-decoration: none;
+     color: #9A8484;
+     font-size: 1.2rem;
+ }
+
+ /* Section styling */
+ section .first {
+     display: inline;
+     width: 78%;
+ }
+
+ section .first div{
+     display: inline-block;
+     height: 500px;
+ }
